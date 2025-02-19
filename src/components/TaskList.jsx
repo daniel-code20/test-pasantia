@@ -104,7 +104,7 @@ export function TaskList() {
                 <h3 className="text-lg font-bold">{task.title}</h3>
                 <p className="text-sm text-gray-500">{task.description}</p>
                 <p className="text-sm text-gray-700 font-medium">
-                  Tiempo restante: {task.timeRemaining} días
+                  Tiempo restante: {task.timeRemaining} segundos
                 </p>
               </div>
 
