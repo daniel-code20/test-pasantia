@@ -53,8 +53,9 @@ Este proyecto está desplegado en **Vercel**. Puedes acceder en el siguiente enl
 ```
 /tareas-temporizador
 ├── src
-│   ├── components  # Componentes reutilizables
 │   ├── api        # Simulación de API con setTimeout
+│   ├── components  # Componentes reutilizables
+│   ├── hooks       # Custom hooks
 │   ├── App.tsx    # Componente principal
 │   ├── main.tsx   # Punto de entrada
 ├── public         # Archivos estáticos
