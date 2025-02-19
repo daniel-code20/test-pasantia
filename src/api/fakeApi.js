@@ -8,7 +8,7 @@ export const fetchTasks = () => {
           { id: 4, title: "Tarea 4", description: "Optimizar el rendimiento del código", lifetime: 12 },
           { id: 5, title: "Tarea 5", description: "Diseñar la nueva interfaz de usuario", lifetime: 18 }
         ]);
-      }, 2000); 
+      }, 1000); 
     });
   };
   
