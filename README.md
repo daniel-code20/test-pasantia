@@ -47,7 +47,7 @@ Este proyecto es una aplicación desarrollada en React.js con Vite que gestiona 
 
 ## Despliegue
 Este proyecto está desplegado en **Vercel**. Puedes acceder en el siguiente enlace:
-👉 [Demo en Vercel](https://tu-proyecto.vercel.app/)
+👉 [Demo en Vercel](https://test-pasantia.vercel.app/)
 
 ## Estructura del Proyecto
 ```
