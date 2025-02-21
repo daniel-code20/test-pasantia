@@ -1,5 +1,4 @@
 import { useTasks } from "../hooks/useTask";
-import { useTaskTimer } from "../hooks/useTaskTimer";
 import { useEffect, useState } from "react";
 import { Title, ResetButton, Spinner, TaskGrid } from "../components";
 
@@ -18,8 +17,6 @@ export const TaskList: React.FC = () => {
     setTasks(initialTasks);
   }, [initialTasks]);
 
-  const tasksState = useTaskTimer(tasks);
-
   if (isLoading) return <Spinner />;
   if (error) return <p>Error al cargar las tareas: {error.message}</p>;
 
@@ -27,7 +24,7 @@ export const TaskList: React.FC = () => {
     <div className="flex flex-col justify-center items-center min-h-screen bg-white p-4">
       <Title text="Lista de Tareas 📋" />
       <ResetButton onClick={handleReset} />
-      <TaskGrid tasks={tasksState} onDelete={handleDelete} />
+      <TaskGrid tasks={tasks} onDelete={handleDelete} />
     </div>
   );
 };
